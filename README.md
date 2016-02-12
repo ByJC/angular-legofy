@@ -8,9 +8,12 @@ only AngularJS is required.
 
 ```
 npm install angular-legofy --save
+```
+
+then in you angular application, register the module
+```
 import 'angular-legofy'
 
-//...
 
 angular.module('MyApp', [ 'legofy' ]);
 ```
