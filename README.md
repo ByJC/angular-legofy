@@ -1,8 +1,8 @@
 # angular-legofy
-Angular-Legofy is a directive based on [https://github.com/Wildhoney/Legofy](Legofy)
+Angular-Legofy is a directive based on [Legofy](https://github.com/Wildhoney/Legofy)
 
 ## Required
-only AngularJS is required (obviously !)
+only AngularJS is required.
 
 ## Install
 
@@ -14,6 +14,7 @@ import 'angular-legofy'
 
 angular.module('MyApp', [ 'legofy' ]);
 ```
+
 
 ## then use the directive
 
@@ -28,9 +29,9 @@ factor (size of the bricks) and blend-mode
 <img src="img/lena.jpg" legofy factor="0.025" blend-mode="'screen'">
 ```
 By default :
-factor = 0.05,
-blendMode = 'overlay'
-however 'screen', 'darken', 'color-burn', 'hard-light', 'soft-light'
+factor = `0.05`,
+blendMode = `'overlay'`
+however `'screen'`, `'darken'`, `'color-burn'`, `'hard-light'`, `'soft-light'`
 
 ## Contribute
 
@@ -42,7 +43,7 @@ npm run build
 
 ## Authors
 
-Jean-Charles FAUVIN [ByJC](https://github.com/ByJC)
+[Jean-Charles FAUVIN](https://github.com/ByJC)
 
 ## License
 
