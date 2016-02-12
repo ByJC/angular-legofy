@@ -9,17 +9,17 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/ByJC/angular-legofy"
   },
   "author": "ByJC (jeancharles.fauvin@gmail.com) Jean-Charles FAUVIN",
   "license": "MIT",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/ByJC/angular-legofy/issues"
   },
   "dependencies": {
     "legofy": "^0.1.8"
   },
-  "homepage": "",
+  "homepage": "https://github.com/ByJC/angular-legofy",
   "devDependencies": {
     "autoprefixer-loader": "~3.2.0",
     "babel-core": "~6.5.1",

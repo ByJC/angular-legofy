@@ -1,8 +1,11 @@
 # angular-legofy
-Angular-Legofy is a directive based on [Legofy](https://github.com/Wildhoney/Legofy)
+Angular-legofy is a directive based on [Legofy](https://github.com/Wildhoney/Legofy)
+
+![screenshot](media/screenshot.png)
+
 
 ## Required
-only AngularJS is required.
+only AngularJS is needed.
 
 ## Install
 
@@ -11,7 +14,7 @@ npm install angular-legofy --save
 ```
 
 then in you angular application, register the module
-```
+```js
 import 'angular-legofy'
 
 
@@ -21,14 +24,14 @@ angular.module('MyApp', [ 'legofy' ]);
 
 ## then use the directive
 
-```
+```html
 <img src="img/lena.jpg" legofy>
 ```
 
 You have two options :
 factor (size of the bricks) and blend-mode
 
-```
+```html
 <img src="img/lena.jpg" legofy factor="0.025" blend-mode="'screen'">
 ```
 By default :
