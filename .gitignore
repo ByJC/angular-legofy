@@ -1,0 +1,12 @@
+#untracked folder
+
+node_modules/
+.idea/
+karma.conf.js
+build/
+.sass_cache/
+
+#untracked files
+
+npm-debug.log
+.DS_Store
