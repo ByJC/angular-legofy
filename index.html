@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en-us" ng-app="demo">
   <head>
     <meta charset="UTF-8">
     <title>Angular-legofy by ByJC</title>
@@ -8,6 +8,9 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+    <script src="angular-legofy.js"></script>
+    <script src="script.js"></script>
   </head>
   <body>
     <section class="page-header">
@@ -18,11 +21,16 @@
       <a href="https://github.com/ByJC/angular-legofy/tarball/master" class="btn">Download .tar.gz</a>
     </section>
 
-    <section class="main-content">
+    <section class="main-content" ng-controller="legofyController as lego">
       <h3>
 <a id="welcome-to-angular-legofy-" class="anchor" href="#welcome-to-angular-legofy-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to angular-legofy !</h3>
 
 <p>angular-legofy is an angular's directive that transform your images into lego. let's see how to do that.</p>
+<p>
+    <img src="media/test1.jpg">
+    <img src="media/test1.jpg" legofy>
+</p>
+
 
 <h3>
 <a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
@@ -42,6 +50,6 @@
 
     </section>
 
-  
+
   </body>
 </html>
