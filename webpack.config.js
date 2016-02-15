@@ -2,7 +2,7 @@ var path = require('path'),
     webpack = require("webpack"),
     libPath = path.join(__dirname, 'lib'),
     srcPath = path.join(__dirname, 'src'),
-    pkg = require('./package.json'),
+    pkg = require('./package.json');
 
 module.exports = {
     entry: path.join(libPath, 'legofy.module.js'),
