@@ -57,6 +57,10 @@ npm run build
 
 [Jean-Charles FAUVIN](https://github.com/ByJC)
 
+## Thanks
+
+[WildHoney](https://github.com/Wildhoney) for Legofy
+
 ## License
 
 ```
