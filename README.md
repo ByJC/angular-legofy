@@ -1,8 +1,14 @@
 # angular-legofy
 Angular-legofy is a directive based on [Legofy](https://github.com/Wildhoney/Legofy)
 
-![screenshot](media/screenshot.png)
+![screenshot](media/screenshot2.png)
 
+```
+factor="0.025" blend-mode="'overlay'"
+factor="0.02" blend-mode="'darken'"
+factor="0.05" blend-mode="'soft-light'"
+factor="0.01" blend-mode="'hard-light'"
+```
 
 ## Required
 only AngularJS is needed.
